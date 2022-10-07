@@ -16,6 +16,7 @@ const PostContainer = (updateList: any) => {
     const [removePost, {}] = postApi.useDeletePostMutation()
     const [isAddEmplModalVisible, setAddEmplModalVisible] = useState(false);
 
+    console.log('test pr')
 
     const columns = [
         {
